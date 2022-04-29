@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './Hero';
+import HeroGraph from './HeroGraph';
 import HeroStats from './HeroStats';
 import Navbar from './Navbar';
 
@@ -9,6 +10,7 @@ function Main() {
       <Navbar />
       <Hero />
       <HeroStats />
+      <HeroGraph />
     </div>
   );
 }
