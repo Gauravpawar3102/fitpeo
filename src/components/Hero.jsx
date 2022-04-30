@@ -3,15 +3,20 @@ import heroPng from '../assets/hero-left-img.bmp';
 function Hero() {
   return (
     <div className="hero-top-container h-1/3 m-2 flex gap-4 ">
-      <div className="hero-top-left w-4/6 bg-green-200 rounded-xl text-left p-6 flex">
-        <div className="hero-left-text">
+      <div className="hero-top-left bg-[#C9FACDff] w-4/6 bg-primarygreen rounded-xl text-left p-6 flex">
+        <div className="hero-left-text ">
           <h2 className="welcome ">Welcome back</h2>
           <h2 className="welcome-admin ">{`Minimal UI`}</h2>
           <p className="para ">
             I am sure of ! using lorem ipsum passage so i decided not to use
             lorem ipsum
           </p>
-          <button className="bg-green-400 text-white">Go Now</button>
+          <button
+            className="p-1 rounded-md bg-green-400 px-2
+           text-white"
+          >
+            Go Now
+          </button>
         </div>
         <img className="h-24 w-34" src={heroPng} alt="img" />
         <div className="hero-left-img"></div>

@@ -15,10 +15,10 @@ const SidebarList = styled.button`
   li {
     background-color: white;
     padding: 0.5rem 0.25rem 0.5rem 0.25rem;
-    border-radius: 1rem;
     color: black;
     &:hover {
       background-color: #eff8f3ff;
+      border-right: 2px solid #06a752ff;
     }
   }
   li a {
