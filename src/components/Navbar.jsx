@@ -6,11 +6,11 @@ import profile from '../assets/profile-image.jpg';
 
 function Navbar() {
   return (
-    <div className="navbar-container flex justify-between w-full items-center ">
+    <div className="navbar-container flex p-4 justify-between w-full items-center ">
       <div className="search text-2xl">
         <FiSearch />
       </div>
-      <div className="navbar-right-container gap-4 items-center justify-around text-2xl flex">
+      <div className="navbar-right-container gap-8 items-center justify-around text-2xl flex  ">
         <RiFlag2Line />
         <IoIosNotifications />
         <IoMdContacts />
