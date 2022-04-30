@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 
 function Main() {
   return (
-    <div className="Main w-full h-full">
+    <div className="Main w-full p-2 h-full">
       <Navbar />
       <Hero />
       <HeroStats />
