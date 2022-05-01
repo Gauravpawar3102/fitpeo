@@ -6,11 +6,13 @@ import Navbar from './Navbar';
 import api from '../api/apiData';
 import { useState, useEffect } from 'react';
 function Main() {
-  const [data, setData] = useState({});
+  const [data, setData] = useState([{}]);
+  const [loading, setLoading] = useState(true);
 
   const fetchData = async () => {
     const response = await api.get('/posts');
     setData(response.data);
+    setLoading(false);
     return response.data;
   };
 
@@ -26,6 +28,7 @@ function Main() {
     getData();
   }, []);
   console.log(data);
+  if (loading) return <h1>Loading...</h1>;
   return (
     <div className="Main w-full p-2 h-full">
       <Navbar />
