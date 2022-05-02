@@ -33,7 +33,7 @@ function Main() {
     <div className="Main w-full p-2 h-full">
       <Navbar />
       <Hero />
-      {/* <HeroStats data={data} /> */}
+      <HeroStats data={data} />
       <HeroGraph />
     </div>
   );

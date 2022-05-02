@@ -2,7 +2,7 @@ import React from 'react';
 import heroPng from '../assets/hero-left-img.bmp';
 function Hero() {
   return (
-    <div className="hero-top-container h-1/3 m-2 flex gap-4 ">
+    <div className="hero-top-container h-1/3  px-4 flex gap-4 ">
       <div className="hero-top-left bg-[#C9FACDff] w-4/6 bg-primarygreen rounded-xl text-left p-6 flex">
         <div className="hero-left-text ">
           <h2 className="welcome ">Welcome back</h2>
