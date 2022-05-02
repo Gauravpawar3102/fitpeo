@@ -30,7 +30,7 @@ function HeroGraph() {
   ];
 
   return (
-    <div className="heroGraph-container w-full p-4 flex gap-4">
+    <div className="heroGraph-container w-full p-4 flex gap-4 mb-6">
       <div className="currentDownload-bar-graph  flex bg-white  shadow-lg flex-col p-4 rounded-lg gap-8 w-1/3 items-center">
         <div className="currentDownload-text self-start font-semibold  text-md ">
           Current Download

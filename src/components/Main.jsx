@@ -5,6 +5,10 @@ import HeroStats from './HeroStats';
 import Navbar from './Navbar';
 import api from '../api/apiData';
 import { useState, useEffect } from 'react';
+import Slider from './Slider';
+import { SliderData } from '../assets/SliderData';
+import Links from './Links';
+
 function Main() {
   const [data, setData] = useState([{}]);
   const [loading, setLoading] = useState(true);
@@ -35,6 +39,7 @@ function Main() {
       <Hero />
       <HeroStats data={data} />
       <HeroGraph />
+      <Links />
     </div>
   );
 }
