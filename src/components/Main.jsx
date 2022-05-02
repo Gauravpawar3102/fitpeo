@@ -5,8 +5,7 @@ import HeroStats from './HeroStats';
 import Navbar from './Navbar';
 import api from '../api/apiData';
 import { useState, useEffect } from 'react';
-import Slider from './Slider';
-import { SliderData } from '../assets/SliderData';
+
 import Links from './Links';
 
 function Main() {

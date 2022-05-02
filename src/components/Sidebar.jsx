@@ -56,31 +56,31 @@ function Sidebar() {
         <ul className="sidebarList flex flex-col  my-2 text-lg ">
           <SidebarList>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="app" className="items-center flex">
                 <MdOutlineAppRegistration />
                 <span> App</span>
               </a>
             </li>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="ecom" className="items-center flex">
                 <MdShoppingCart />
                 <span> E-Commerce</span>
               </a>
             </li>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="analytics" className="items-center flex">
                 <MdAnalytics />
                 <span> Analytics</span>
               </a>
             </li>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="banking" className="items-center flex">
                 <AiTwotoneBank />
                 <span> Banking</span>
               </a>
             </li>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="booking" className="items-center flex">
                 <MdOutlineEditCalendar />
                 <span> Booking</span>
               </a>
@@ -94,19 +94,19 @@ function Sidebar() {
         <ul className="sidebarList flex flex-col  my-2 text-lg ">
           <SidebarList>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="user" className="items-center flex">
                 <FaUser />
                 <span> User</span>
               </a>
             </li>{' '}
             <li>
-              <a href="#" className="items-center flex">
+              <a href="ecom" className="items-center flex">
                 <FaShoppingCart />
                 <span> E-Commerce</span>
               </a>
             </li>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="blog" className="items-center flex">
                 <FaBlogger />
                 <span>Blog</span>
               </a>
@@ -119,7 +119,7 @@ function Sidebar() {
         <ul className="sidebarList flex flex-col  my-2 text-lg ">
           <SidebarList>
             <li>
-              <a href="#" className="items-center flex">
+              <a href="mail" className="items-center flex">
                 <MdMail />
                 <span>Mail</span>
               </a>
