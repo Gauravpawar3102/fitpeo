@@ -30,7 +30,7 @@ function Main() {
   console.log(data);
   if (loading) return <h1>Loading...</h1>;
   return (
-    <div className="Main w-full p-2 h-full">
+    <div className="Main w-full p-2 h-full border-l-2 border-grey-200">
       <Navbar />
       <Hero />
       <HeroStats data={data} />

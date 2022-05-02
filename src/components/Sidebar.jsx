@@ -33,13 +33,13 @@ const SidebarList = styled.button`
 
 function Sidebar() {
   return (
-    <div className="sidebar-container pl-6 py-6 w-1/4 ">
+    <div className="sidebar-container pl-6 py-6 w-1/4  ">
       <img
         className="sidebar-logo h-6 w-10 object-contain "
         src={logo}
         alt="logo"
       />
-      <div className="admin-profile-container rounded-lg flex my-4 w-9/10 p-2 items-center gap-4 bg-slate-100">
+      <div className="admin-profile-container rounded-lg flex my-4 w-4/5 pr-4 p-2 items-center gap-4 bg-slate-100">
         <img
           className="admin-picture h-10 rounded-full w-10  object-contain"
           src={profile}
@@ -115,7 +115,7 @@ function Sidebar() {
         </ul>
       </div>
       <div className="app-container ">
-        <div className="sidebar-app font-bold"> APP</div>
+        <div className="sidebar-app font-bold "> APP</div>
         <ul className="sidebarList flex flex-col  my-2 text-lg ">
           <SidebarList>
             <li>
